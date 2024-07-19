@@ -3,11 +3,15 @@ local M = {}
 M.general = {
     i = {
         ["jk"] = {"<ESC>", "Escape insert mode"},
+        ["<C-H>"] = { "<C-w>", "Delete the previous word" },
     },
     n = {
         ["<C-k>"] = {"<cmd> m -2 <CR>", "move line up"},
         ["<C-j>"] = {"<cmd> m +1 <CR>", "move line "},
-    }
+    },
+    v = {
+        ["<C-S-c>"] = { '<cmd> "+y <CR>', "copy to clipboard"},
+    },
 }
 
 M.dap = {
