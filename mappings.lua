@@ -3,7 +3,7 @@ local M = {}
 M.general = {
     i = {
         ["jk"] = {"<ESC>", "Escape insert mode"},
-        ["<C-H>"] = { "<C-w>", "Delete the previous word" },
+        ["<C-BS>"] = { "<C-w>", "Delete the previous word" },
     },
     n = {
         ["<C-k>"] = {"<cmd> m -2 <CR>", "move line up"},
