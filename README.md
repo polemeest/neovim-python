@@ -3,8 +3,8 @@
 To install this for your neovim configuration
 
 ```
-git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
-git clone https://github.com/polemeest/neovim-python.git ~/.config/nvim/lua/custom
+git clone https://github.com/NvChad/starter ~/.config/nvim 
+git clone https://github.com/polemeest/neovim-python.git ~/.config/nvim/lua/custom && nvim
 ```
 
 Then open up neovim and let everything install. If not installed automatically, then enter this in command line:
