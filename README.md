@@ -3,7 +3,7 @@
 To install this for your neovim configuration
 
 ```
-git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 git clone https://github.com/polemeest/neovim-python.git ~/.config/nvim/lua/custom
 ```
 
